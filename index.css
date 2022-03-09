@@ -42,11 +42,8 @@ nav {
     color: white;
     padding: 10px;
     width: 100%;
-    align-items: center;
     border-radius: 3px;
     height: 30px;
-    text-align: center;
-    vertical-align:text-top;
 }
 
 .company {
@@ -56,6 +53,7 @@ nav {
     background-color: #f4f2ed;
     padding: 5px;
     margin: 5px;
+    text-align: center;
 }
 
 h2, h3 {
@@ -73,7 +71,6 @@ h2, h3 {
 
 .extratext {
     display:inline-block;
-    float: bottom;
     background-color: #f4f2ed;
     padding: 5px;
     margin: 5px;
@@ -86,4 +83,10 @@ h2, h3 {
 img {
     width: 100%;
     align-items: center;
+}
+
+.REI {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
 }
