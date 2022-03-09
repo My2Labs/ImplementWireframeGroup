@@ -47,7 +47,7 @@ nav {
 }
 
 .company {
-    display: flexbox;
+    display: block;
     float: left;
     width: 50%;
     background-color: #f4f2ed;
