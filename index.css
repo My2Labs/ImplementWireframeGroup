@@ -36,6 +36,11 @@ button {
     border-radius: 3px;
 }
 
+button a:link, button a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 nav {
     background-color: hsl(0, 0%, 16%);
     border: none;
@@ -44,6 +49,11 @@ nav {
     width: 100%;
     border-radius: 3px;
     height: 30px;
+}
+
+nav a:link, nav:link, nav a:visited {
+    text-decoration: none;
+    color: white
 }
 
 .company {
@@ -112,6 +122,11 @@ tbody, thead, td {
     font-size: 15px;
 }
 
+table a:link, nav:link, table a:visited {
+    text-decoration: none;
+    color: black
+}
+
 button {
     width: 100px;
     padding: 10px;
@@ -128,3 +143,5 @@ button {
     border: none;
 
 }
+
+
